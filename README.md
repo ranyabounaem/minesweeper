@@ -1,2 +1,2 @@
 # minesweeper
- Minesweeper Game using Unity and C#
+ Minesweeper game using Unity and C#
