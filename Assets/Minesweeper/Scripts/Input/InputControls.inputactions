@@ -1,0 +1,74 @@
+{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "9eb1f230-8555-4e4f-8df9-dd6fd7805ae2",
+            "actions": [
+                {
+                    "name": "OpenTile",
+                    "type": "Value",
+                    "id": "3aee4ac3-0f07-40a2-b97b-412f4a49875e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AddFlag",
+                    "type": "Value",
+                    "id": "fe8466ce-d6e4-4bd9-94c1-942c425fc2e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Button",
+                    "id": "bc430168-c9b5-46bf-b348-a859b7fafe4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f3270830-a65e-485f-9299-4dd9f92af41e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenTile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cefa59b5-9786-4d0b-bf41-b91d724571e1",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AddFlag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95e19fbe-7bad-4f4e-862e-0c13e0db7f18",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
